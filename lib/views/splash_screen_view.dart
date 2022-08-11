@@ -54,7 +54,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     return Container(
-      color: Palette.PageMainColor,
+      color: Palette.PrimaryColor,
       child: const Center(
         child: CircularProgressIndicator(
           color: Colors.white,
